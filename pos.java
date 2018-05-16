@@ -16,11 +16,11 @@ public static void main (String[] args) throws java.lang.Exception
 	
            int n=s.nextInt();
 	
-if(n<1)
+if(n<0)
 
 	System.out.println("negative");
 	
-else if(n>1)
+else if(n>0)
 	
 System.out.println("positive");
 
