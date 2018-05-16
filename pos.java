@@ -20,9 +20,12 @@ if(n<1)
 
 	System.out.println("negative");
 	
-else 
+else if(n>1)
 	
 System.out.println("positive");
+
+else 
+System.out.println("no");	
 	}
 
 }
