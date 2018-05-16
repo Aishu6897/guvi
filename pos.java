@@ -25,7 +25,7 @@ else if(n>0)
 System.out.println("positive");
 
 else 
-System.out.println("no");	
+System.out.println("zero");	
 	}
 
 }
