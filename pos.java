@@ -14,18 +14,15 @@ public static void main (String[] args) throws java.lang.Exception
 {
 	Scanner s=new Scanner(System.in);
 	
-           int n=s.nextInt();
+           int Number=s.nextInt();
+	if(Number==0)
+		System.out.print("zero);
+        else if(Number>0)
+		 System.out.print("positive");
+	else if(Number<0)
+				 System.out.print("negative");
 	
-if(n<0)
 
-	System.out.println("negative");
-	
-else if(n>0)
-	
-System.out.println("positive");
-
-else 
-System.out.println("zero");	
 	}
 
 }
