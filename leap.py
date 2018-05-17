@@ -2,9 +2,9 @@ wh=int(input())
  
 if(wh%4==0):
      
-    print "leapyear" 
+    print "yes" 
 
 else:
     
-    print  "not leapyear"
+    print  "no"
     
